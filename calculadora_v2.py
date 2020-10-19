@@ -10,9 +10,15 @@ except Exception as error:
     print("Voce deve informar apenas numeros")
     sys.exit()
 
-print("Digite outro número: ")
-y = input()
-y = float(y)
+try:
+    print("Digite outro número:")
+    y = input()
+    y = float(y)
+except Exception as error:
+    print("Informar apenas numeros")
+    sys.exit()
+
+
 print("Escolha uma opção: ")
 print("+ - para somar")
 print("- - para subtrair")
