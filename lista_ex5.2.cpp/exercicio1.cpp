@@ -12,14 +12,7 @@ Digite um número: 4.
 #include <math.h>
 
 int main(){
-    int n = 0, i = 0;
-    printf("\nPor favor, informe a tabuada que você deseja: \n");
-    scanf("%d",&n);
- 
-    for(int i = 0; i<=10; i++){
-        printf("%d x %d = %d \n", n, i, n*i);
-    }
-
+    
     getchar();
     return 0;
 }
