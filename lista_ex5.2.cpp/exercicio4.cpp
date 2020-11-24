@@ -4,6 +4,12 @@ for múltiplo de 10, exiba a mensagem “MÚLTIPLO DE 10”. */
 #include <stdio.h>
 
 int main(){
+    int ;
+    for(i = 0; i<=100; i++){
+
+
+
+    }
    
     getchar();
     return 0;
