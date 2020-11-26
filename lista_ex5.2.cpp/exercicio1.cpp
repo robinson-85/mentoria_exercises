@@ -12,6 +12,14 @@ Digite um número: 4.
 #include <math.h>
 
 int main(){
+    int numero;
+    printf("Digite um número: \n");
+    scanf("%d", &numero);
+
+    for(int i=0; i<numero; i++){
+        
+
+    }
     
     getchar();
     return 0;

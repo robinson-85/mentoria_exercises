@@ -9,10 +9,9 @@ int main(){
     printf("Insira um valor pelo qual deseja calcular o seu fatorial: \n");
     scanf("%d", &numero);
 
-    for(int fatorial = 0; fatorial > 1; numero = numero - 1){
-        fatorial = fatorial * numero;
-        printf("O numero fatorial é: %d\n", fatorial);
-    }
+    
+        
+    
     
     getchar();
     return 0;
