@@ -16,7 +16,8 @@ De 7 para cima                           Aprovado
 int main(){
     float n1, n2, media_aritmetica, media_aritmetica_geral, mensagem, aprovado = 0, reprovado = 0,  exame = 0, media_classe = 0;
     
-    for(int i = ; i<=; i++){
+    for(int i = 0 ; i<= 10; i++){
+        
     
 
     getchar();
