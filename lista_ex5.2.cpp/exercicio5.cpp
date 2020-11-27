@@ -8,6 +8,7 @@ int main(){
     int fatorial, numero;
     printf("Insira um valor pelo qual deseja calcular o seu fatorial: \n");
     scanf("%d", &numero);
+    
 
     
         
