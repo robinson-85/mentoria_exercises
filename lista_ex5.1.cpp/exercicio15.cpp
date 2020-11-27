@@ -46,11 +46,11 @@ int main(){
     char refrigeracao, categoria;
     
     for(int i = 0; i<12; i++){
-        printf("Digite o preco unitario do produto: \n");
+        printf("Digite o preco unitario do produto: R$ \n");
         scanf("%f", &preco_unitario);
         printf("Se refrigeração digite S, se não N \n");
         scanf("%s", &refrigeracao);
-        printf("Digite a categoria: \nA — alimentação; \nL — limpeza; e \nV — vestuário \n");
+        printf("Digite a categoria: \nA — alimentação; \nL — limpeza; \nV — vestuário \n");
         scanf("%s", &categoria);
 
         if(preco_unitario<20 && categoria == 'A'){
@@ -84,7 +84,7 @@ int main(){
             custo_estocagem = 1;
         }
 
-        printf("O custo de estocagem sera: %f \n", custo_estocagem);
+        printf("O custo de estocagem sera: R$ %f \n", custo_estocagem);
 
         if(categoria == 'A' && refrigeracao == 'S'){
             imposto = preco_unitario / 100 * 4;
@@ -111,17 +111,17 @@ int main(){
         }
         
         preco_final = preco_unitario + custo_estocagem + imposto;
-        printf("O preco final do produto sera: %.2f \n", preco_final);
+        printf("O preco final do produto sera: R$ %.2f \n", preco_final);
         
         total_imposto = total_imposto + imposto;
 
         media_custo_estocagem = media_custo_estocagem + custo_estocagem;
         }
         
-        printf("O preço maior sera: %f\n", preco_maior);
-        printf("O preço menor sera: %f\n", preco_menor);
-        printf("A media total dos impostos sera: %.2f \n", total_imposto/12);
-        printf("A media do custo de estocagem sera: %.2f \n", media_custo_estocagem/12);
+        printf("O preço maior sera: R$ %.2ff\n", preco_maior);
+        printf("O preço menor sera: R$ %.2ff\n", preco_menor);
+        printf("A media total dos impostos sera: R$ %.2f \n", total_imposto/12);
+        printf("A media do custo de estocagem sera: R$ %.2f \n", media_custo_estocagem/12);
 
     getchar();
     return 0;

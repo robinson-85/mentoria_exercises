@@ -41,8 +41,9 @@ int main(){
             media_classe = media_classe + media_aritmetica;
         }
 
-    media_classe = media_classe/6;
-    printf("\nA media da classe e: %.2f \n", media_classe);
+        media_classe = media_classe/6;
+        
+        printf("\nA media da classe e: %.2f \n", media_classe);
     
 
     getchar();

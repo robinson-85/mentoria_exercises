@@ -7,7 +7,11 @@ int main(){
     int valor = 0, valor_anterior = 1, soma;
     
     for(int i = 0; i < 8; i++){
-        
+        printf("Soma: \n");
+        soma = valor_anterior + valor;
+        valor_anterior = valor;
+        soma = valor_anterior;
+        printf("%d", soma);
     }
     
     getchar();
