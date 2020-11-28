@@ -7,7 +7,7 @@ int main(){
     int i, n;
 
     for(i=0; i<15; i++){
-        printf("")
+        
     }
     
     getchar();

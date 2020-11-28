@@ -1,19 +1,21 @@
 /* 24. Faça um programa que apresente o menu de opções a seguir, permita ao usuário
 escolher a opção desejada, receba os dados necessários para executar a operação e
-mostre o resultado. Verifique a possibilidade de opção inválida e não se preocupe com
-restrições do tipo salário inválido.
+mostre o resultado. Verifique a possibilidade de opção inválida e não se preocupe 
+com restrições do tipo salário inválido.
+
 Menu de opções:
 1. Imposto
 2. Novo salário
 3. Classificação
 4. Finalizar o programa
 Digite a opção desejada.
+
 Na opção 1: receber o salário de um funcionário, calcular e mostrar o valor do imposto
 usando as regras a seguir.
 
     Salários                          % do Imposto
-menor que R$500,00,                        5
-De R$500,00, a R$850,00                    10
+Menor que R$500,00,                        5
+De R$500,00 a R$850,00                     10
 Acima de R$850,00                          15
 
 Na opção 2: receber o salário de um funcionário, calcular e mostrar o valor do novo
