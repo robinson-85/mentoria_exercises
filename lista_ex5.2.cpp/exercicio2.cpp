@@ -11,11 +11,9 @@ int main(){
     scanf("%d", &n2);
 
     for(int i=0; i<= 1; i++){
-        printf("Exiba o número ímpar: %d\n", impar);
 
     }
     
-
     getchar();
     return 0;
 }
