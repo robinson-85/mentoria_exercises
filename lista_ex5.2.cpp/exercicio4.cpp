@@ -4,7 +4,7 @@ for múltiplo de 10, exiba a mensagem “MÚLTIPLO DE 10”. */
 #include <stdio.h>
 
 int main(){
-    int ;
+    int n,i;
     for(i = 0; i<=100; i++){
 
 

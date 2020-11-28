@@ -45,7 +45,6 @@ int main(){
         
         printf("\nA media da classe e: %.2f \n", media_classe);
     
-
     getchar();
     return 0;
 }
